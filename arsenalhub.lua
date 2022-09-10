@@ -2692,7 +2692,7 @@ MiscTabSaveSection:Button("Load",function()
     end
     getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
     getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "Jude Slave/Hooker",
+        "Bolts Slave/Hooker",
         "Loadded: "..a.." Features With "..b.." Errors",
         _G.UIMainColor or Color3.fromRGB(255,0,0),
         Color3.new(255,0,0),
@@ -2725,7 +2725,7 @@ MiscTabSaveSection:Button("Load",function()
     end
     getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).moveOldMessages()
     getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage(
-        "Jude Slave/Hooker",
+        "Bolts Slave/Hooker",
         "Loadded: "..a.." Features With "..b.." Errors",
         _G.UIMainColor or Color3.fromRGB(255,0,0),
         Color3.new(255,0,0),
@@ -2745,6 +2745,11 @@ end)
 W:Button("Dont try to spam the webhook lol",function()
     print("Button Pressed")
 end)
+
+W:Button("Copy Discord Link To Clip Board",function()
+    setclipboard("https://discord.gg/7xHXBxsW4k")
+end)
+W:Button("Click to copy TOS",function()
 
 setclipboard("You argee that your username your country and your executer will be publicly logged and you agree that jude is not reponsable for you being banned from arsenal and also you agree that you will not use your main account when exploiting")
 end)
