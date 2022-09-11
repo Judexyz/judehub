@@ -451,7 +451,7 @@ FarmExp.Position = UDim2.new(0, 130, 0, 5)
 FarmExp.Size = UDim2.new(0, 75, 0, 20)
 FarmExp.Font = Enum.Font.Fantasy
 FarmExp.TextColor3 = Color3.new(1, 1, 1)
-FarmExp.Text = "Farm Exp"
+FarmExp.Text = "Auto Farm"
 FarmExp.TextSize = 17
 FarmExp.TextWrapped = true
 
@@ -496,7 +496,7 @@ TPLocation.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 TPLocation.Position = UDim2.new(0, 305, 0, 5)
 TPLocation.Size = UDim2.new(0, 65, 0, 20)
 TPLocation.Font = Enum.Font.Fantasy
-TPLocation.Text = "Tp to"
+TPLocation.Text = "Tp Location"
 TPLocation.TextWrapped = true
 TPLocation.TextSize = 16
 
@@ -520,7 +520,7 @@ Location2.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 Location2.Position = UDim2.new(0, 5, 0, 55)
 Location2.Size = UDim2.new(0, 365, 0, 20)
 Location2.Font = Enum.Font.Fantasy
-Location2.Text = "Teleport to Rock [10x Fist Strength]"
+Location2.Text = "Teleport to Rock [10x Fist Strength]: None"
 Location2.TextWrapped = true
 Location2.TextSize = 16
 
@@ -532,7 +532,7 @@ Location7.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 Location7.Position = UDim2.new(0, 5, 0, 80)
 Location7.Size = UDim2.new(0, 365, 0, 20)
 Location7.Font = Enum.Font.Fantasy
-Location7.Text = "Teleport to Crystal [100x Fist Strength]"
+Location7.Text = "Teleport to Crystal [100x Fist Strength]; Flying ability"
 Location7.TextWrapped = true
 Location7.TextSize = 16
 
@@ -640,7 +640,7 @@ LocationBT1B.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 LocationBT1B.Position = UDim2.new(0, 5, 0, 305)
 LocationBT1B.Size = UDim2.new(0, 365, 0, 20)
 LocationBT1B.Font = Enum.Font.Fantasy
-LocationBT1B.Text = "Tp to [2k x BT] Area: 1B+ BT required"
+LocationBT1B.Text = "Tp to Hellfire [2k x BT] Area: 1B+ BT required"
 LocationBT1B.TextWrapped = true
 LocationBT1B.TextSize = 16
 
@@ -652,7 +652,7 @@ LocationBT100B.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 LocationBT100B.Position = UDim2.new(0, 5, 0, 330)
 LocationBT100B.Size = UDim2.new(0, 365, 0, 20)
 LocationBT100B.Font = Enum.Font.Fantasy
-LocationBT100B.Text = "Tp to [40k x BT] Area: 100B+ BT required"
+LocationBT100B.Text = "Tp to Acid [40k x BT] Area: 100B+ BT required"
 LocationBT100B.TextWrapped = true
 LocationBT100B.TextSize = 16
 
@@ -664,7 +664,7 @@ LocationBT10T.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 LocationBT10T.Position = UDim2.new(0, 5, 0, 355)
 LocationBT10T.Size = UDim2.new(0, 365, 0, 20)
 LocationBT10T.Font = Enum.Font.Fantasy
-LocationBT10T.Text = "Tp to [800k x BT] Area: 10T+ BT required"
+LocationBT10T.Text = "Tp to Red Acid [800k x BT] Area: 10T+ BT required"
 LocationBT10T.TextWrapped = true
 LocationBT10T.TextSize = 16
 
@@ -676,7 +676,7 @@ LocationPP1M.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 LocationPP1M.Position = UDim2.new(0, 5, 0, 380)
 LocationPP1M.Size = UDim2.new(0, 365, 0, 20)
 LocationPP1M.Font = Enum.Font.Fantasy
-LocationPP1M.Text = "Tp to Psychic Island [100x PP]: 1M+ PP required"
+LocationPP1M.Text = "Tp to First Lawn [100x PP]: 1M+ PP required"
 LocationPP1M.TextWrapped = true
 LocationPP1M.TextSize = 16
 
@@ -688,7 +688,7 @@ LocationPP1B.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 LocationPP1B.Position = UDim2.new(0, 5, 0, 405)
 LocationPP1B.Size = UDim2.new(0, 365, 0, 20)
 LocationPP1B.Font = Enum.Font.Fantasy
-LocationPP1B.Text = "Tp to Psychic Island [10k x PP]: 1B+ PP required"
+LocationPP1B.Text = "Tp to Second Lawn [10k x PP]: 1B+ PP required"
 LocationPP1B.TextWrapped = true
 LocationPP1B.TextSize = 16
 
@@ -700,7 +700,7 @@ LocationPP1T.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 LocationPP1T.Position = UDim2.new(0, 5, 0, 430)
 LocationPP1T.Size = UDim2.new(0, 365, 0, 20)
 LocationPP1T.Font = Enum.Font.Fantasy
-LocationPP1T.Text = "Tp to Psychic Island [1M x PP]: 1T+ PP required"
+LocationPP1T.Text = "Tp to Bridge [1M x PP]: 1T+ PP required"
 LocationPP1T.TextWrapped = true
 LocationPP1T.TextSize = 16
 
@@ -712,7 +712,7 @@ LocationPP1Qa.BorderColor3 = Color3.new(0.6, 0.6, 0.6)
 LocationPP1Qa.Position = UDim2.new(0, 5, 0, 455)
 LocationPP1Qa.Size = UDim2.new(0, 365, 0, 20)
 LocationPP1Qa.Font = Enum.Font.Fantasy
-LocationPP1Qa.Text = "Tp to Psychic Island [100M x PP]: 1Qa+ PP required"
+LocationPP1Qa.Text = "Tp to Waterfall [100M x PP]: 1Qa+ PP required"
 LocationPP1Qa.TextWrapped = true
 LocationPP1Qa.TextSize = 16
 
