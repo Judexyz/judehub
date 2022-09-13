@@ -1,6 +1,6 @@
--- Open the Dev Console (F9) to read information about the GUI --
+-- Open the Dev Console (F9) to read info for GUI --
 
-print("\nSuper Power Training Simulator Jude Hub")
+print("\nSPTS CLASSIC Jude Hub")
 print("\nThe Y Key activates Panic Mode and teleports you to the Safe Zone. This can be changed to another key.")
 print("\nUse the OnDeath Return button to respawn you and return to your previous position\nwhen you are killed. Great for farming BT in zones as soon as you\ncan take 1 hit and survive (eg. 6Bil in 100Bil+ BT Taining Area).")
 print("\nOnce your Fist, Body and Psychic stats are higher you will not be able to Auto\nFarm more than one skill at a time as you need to be near the\nlocation you are farming at.")
@@ -2242,7 +2242,7 @@ end)
 -- Display Player Info --
 
 spawn(function()
-	while true do
+	while true doaw
 		statplayer = tostring(PlayerName.Text)
 		StatsFrame.Visible = false
 		if playerdied == true then repeat wait(0.5) until playerdied == false end
