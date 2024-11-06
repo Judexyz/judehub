@@ -31,7 +31,7 @@ local function getrarity(value)
       end
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/ui%20libs2", true))()
 local example = library:CreateWindow({
-  text = "Fishing Simulator|Jude Hub"
+  text = "Mancing Le"
 })
 example:AddLabel("      Select Fishing Method", function(state)
 end)
